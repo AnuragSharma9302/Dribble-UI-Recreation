@@ -20,7 +20,7 @@ Built with **HTML5** and **CSS3**, this project demonstrates page layout, visual
 
 ## 🌐 Live Preview
 
-> **Live Demo:** [Add your deployed portfolio URL here]([https://your-demo-link.com](https://dribble-ui-clone-46tj1ff10-anurag-6439.vercel.app/))
+> **Live Demo:** [[Add your deployed portfolio URL here]([https://your-demo-link.com](https://dribble-ui-clone-46tj1ff10-anurag-6439.vercel.app/))](https://dribble-ui-clone-46tj1ff10-anurag-6439.vercel.app/)
 
 <!-- Optional: add a screenshot -->
 <!-- ![Project Screenshot](assets/images/screenshot.png) -->
