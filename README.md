@@ -1,99 +1,94 @@
-Dribbble-Inspired Design Discovery UI
+<div align="center">
 
-A front-end portfolio project recreating the look and feel of a modern design-discovery platform. Built with HTML5 and CSS3, this project demonstrates page layout, visual hierarchy, media cards, hover overlays, and CSS animation.
+# 🎨 Dribbble-Inspired Design Discovery UI
 
-Live Preview
+**A front-end portfolio project recreating the look and feel of a modern design-discovery platform.**
 
-Live Demo: Add your deployed portfolio URL here
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-Project Highlights
+[🌐 Live Demo](#-live-preview) · [✨ Features](#-project-highlights) · [🛠 Tech Stack](#-tech-stack) · [📁 Structure](#-project-structure)
 
-Navigation bar and hero section
+</div>
 
-Search bar with trending-search tags
+---
 
-Category selection and filter-style controls
+## 📖 Overview
 
-Multi-column gallery of image and video previews
+Built with **HTML5** and **CSS3**, this project demonstrates page layout, visual hierarchy, media cards, hover overlays, and CSS animation, all without JavaScript or frameworks.
 
-Hover-triggered overlays on gallery cards
+## 🌐 Live Preview
 
-Animated scrolling logo section
+> **Live Demo:** [Add your deployed portfolio URL here](https://your-demo-link.com)
 
-Footer with navigation and social icons
+<!-- Optional: add a screenshot -->
+<!-- ![Project Screenshot](assets/images/screenshot.png) -->
 
-Tech Stack
+## ✨ Project Highlights
 
-HTML5 — page structure and content
+- 🧭 Navigation bar and hero section
+- 🔍 Search bar with trending-search tags
+- 🗂️ Category selection and filter-style controls
+- 🖼️ Multi-column gallery of image and video previews
+- 🪄 Hover-triggered overlays on gallery cards
+- 🔁 Animated, continuously scrolling logo section
+- 🔗 Footer with navigation and social icons
 
-CSS3 — layout, visual styling, hover states, transitions, and animations
+## 🛠 Tech Stack
 
-CSS Skills Demonstrated
+| Technology | Purpose |
+| ---------- | ------- |
+| **HTML5** | Page structure and content |
+| **CSS3** | Layout, visual styling, hover states, transitions, and animations |
+
+## 🎯 CSS Skills Demonstrated
 
 This project gave me practical experience with the following CSS concepts and properties.
 
-1. Layout and Positioning
+### 1. Layout and Positioning
 
-display: flex and display: grid for arranging navigation, content groups, cards, and footer sections
+- `display: flex` and `display: grid` for navigation, content groups, cards, and footer sections
+- `grid-template-columns`, `grid-template-rows`, and `grid-template-areas` for the gallery layout
+- `justify-content`, `align-items`, and `flex-direction` for alignment and distribution
+- `gap` for consistent spacing between flex and grid items
+- `position: relative` and `position: absolute` for placing overlays over media
+- `transform: translateX()` and `translateY()` for positioning elements and animating overlays
 
-grid-template-columns, grid-template-rows, and grid-template-areas for the gallery layout
+### 2. Spacing and Sizing
 
-justify-content, align-items, and flex-direction for alignment and distribution
+- `margin` and `padding` for spacing
+- `width`, `height`, `min-height`, and `max-width` for sizing sections and cards
+- `box-sizing: border-box` for predictable element sizing
+- `overflow: hidden` to keep media and overlays inside card boundaries
 
-gap for consistent spacing between flex and grid items
+### 3. Typography and Visual Styling
 
-position: relative and position: absolute for placing overlays over media
+- `font-family`, `font-size`, and `font-weight` for typography
+- `color` and `background-color` for text and component colors
+- `text-align` for text alignment
+- `border` and `border-radius` for outlines and rounded components
+- `outline` for controlling input outlines
+- `opacity` and `rgba()` for translucent colors
+- `background: linear-gradient()` for overlay shading
 
-transform: translateX() and transform: translateY() for positioning elements and animating overlays
+### 4. Transitions, Hover States, and Animation
 
-2. Spacing and Sizing
+- `:hover` selectors for hover-based visual changes
+- `transition` for smooth changes in appearance and position
+- `cubic-bezier()` for custom transition timing
+- `animation` and `@keyframes` for the continuously moving logo strip
+- `transform` for moving overlay and animated elements
 
-margin and padding for spacing
+### 5. Selectors and Units
 
-width, height, min-height, and max-width for sizing page sections and cards
+- Universal (`*`), class, ID, descendant, and child-combinator selectors
+- Units: `px`, `%`, `vh`, and other relative sizing values
+- Pseudo-classes such as `:hover` for interaction styling
 
-box-sizing: border-box for predictable element sizing
+## 📁 Project Structure
 
-overflow: hidden to keep media and overlays inside card boundaries
-
-3. Typography and Visual Styling
-
-font-family, font-size, and font-weight for typography
-
-color and background-color for text and component colors
-
-text-align for text alignment
-
-border and border-radius for outlines and rounded components
-
-outline for controlling input outlines
-
-opacity and rgba() for translucent colors
-
-background: linear-gradient() for overlay shading
-
-4. Transitions, Hover States, and Animation
-
-:hover state selectors for hover-based visual changes
-
-transition for smooth changes in element appearance and position
-
-cubic-bezier() for custom transition timing
-
-animation and @keyframes for a continuously moving logo strip
-
-transform for moving overlay and animated elements
-
-5. Selectors and Units
-
-Universal selector (*), class selectors, ID selectors, descendant selectors, and child combinators
-
-Pixel (px), percentage (%), viewport-height (vh), and relative sizing values
-
-Pseudo-class usage such as :hover for interaction styling
-
-Project Structure
-
+```text
 dribbble-ui-recreation/
 ├── index.html
 ├── style.css
@@ -102,23 +97,41 @@ dribbble-ui-recreation/
     ├── videos/
     ├── icons/
     └── svg/
+```
 
-The assets/ directory is intended for the images, videos, icons, logos, and SVG files used by the interface. Keep asset filenames and paths consistent with the references in the HTML.
+> **Note:** The `assets/` folder holds the images, videos, icons, logos, and SVGs used by the interface. Keep filenames and paths consistent with the references in the HTML.
 
-About This Project
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/AnuragSharma9302/dribbble-ui-recreation.git
+
+# Move into the project folder
+cd dribbble-ui-recreation
+
+# Open index.html in your browser
+```
+
+## 💡 About This Project
 
 I built this project to practice translating a visual reference into a structured web interface using HTML and CSS. It focuses on composition, spacing, typography, grid and flex layouts, media presentation, and CSS-based motion.
 
-This is an independent portfolio project inspired by Dribbble's design-discovery interface; it is not an official Dribbble product.
+## 👤 Author
 
-Author
+**Anurag Sharma**
 
-Anurag Sharma
+[![GitHub](https://img.shields.io/badge/GitHub-AnuragSharma9302-181717?style=flat&logo=github)](https://github.com/AnuragSharma9302)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Anurag%20Sharma-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anurag-sharma-ba809233b)
 
-GitHub: AnuragSharma9302
+## 📜 Credits & Disclaimer
 
-LinkedIn: Anurag Sharma
+This is an independent portfolio project inspired by Dribbble's design-discovery interface. It is **not affiliated with or endorsed by Dribbble**. Third-party logos, images, videos, icons, and other assets remain the property of their respective owners. Publish assets only when you have permission to use them.
 
-Credits
+---
 
-This is an independent portfolio project and is not affiliated with or endorsed by Dribbble. Third-party logos, images, videos, icons, and other assets remain the property of their respective owners. Publish assets only when you have permission to use them.
+<div align="center">
+
+⭐ If you found this project helpful, consider giving it a star!
+
+</div>
